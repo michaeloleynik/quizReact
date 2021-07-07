@@ -1,0 +1,53 @@
+.FinishedQuiz {
+    color: #fff;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+    margin: 10px 0;
+}
+
+.FinishedQuiz__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.FinishedQuiz__rightAnswersCounter {
+    font-size: 22px;
+}
+
+.FinishedQuiz__icons {
+    margin-left: 15px;
+}
+
+.FinishedQuiz__btnBlock {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FinishedQuiz__btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.FinishedQuiz__btn:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .35);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .35);
+}
+
+.success {
+    color: rgb(161, 240, 69);
+}
+
+.error {
+    color: rgb(240, 87, 108);
+}

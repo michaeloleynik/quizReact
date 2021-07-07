@@ -1,0 +1,26 @@
+.Input {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Input__input {
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.Input__span {
+    color: #900707;
+    font-weight: bold;
+}
+
+.invalid {
+    color: #ff0000;
+}
+
+
+

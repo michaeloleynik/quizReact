@@ -1,0 +1,45 @@
+.Drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px 10px;
+    background: #fff;
+    z-index: 90;
+    transform: translateX(0px);
+    transition: .85s ease-in-out;
+}
+
+.Drawer.close {
+    transform: translateX(-480px);
+}
+
+.Drawer__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.Drawer__listLi {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.Drawer__listLiLink {
+    color: #0d0d0e;
+    font-size: 30px;
+    text-decoration: none;
+    background: #fff;
+    position: relative;
+    padding: 0 20px 10px;
+    transition: .3s ease-in-out;
+}
+
+.Drawer__listLiLink:hover, .active {
+    opacity: .75;
+    margin-left: 40px;
+}
+

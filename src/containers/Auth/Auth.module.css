@@ -1,0 +1,61 @@
+.Auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 200px;
+    background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+}
+
+.Auth__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.Auth__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.Auth__labelInput {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Auth__input {
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.Auth button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .75) inset;
+    cursor: pointer;
+}
+
+.Auth__loginBtn {
+    background: rgb(161, 240, 69);
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 65px;
+    transition: .25s ease-in-out;
+}
+
+.Auth__regBtn {
+    background: rgb(240, 87, 108);
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 65px;
+    transition: .25s ease-in-out;
+}

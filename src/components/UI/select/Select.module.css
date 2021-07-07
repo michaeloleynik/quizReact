@@ -1,0 +1,14 @@
+.Select {
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.Select select {
+    width: 100%;
+    border: 1px solid #bebebe;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
